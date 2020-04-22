@@ -1,0 +1,203 @@
+body {
+    background-color: #ffffff !important;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+  
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #fafafad6 !important;
+}
+
+.active-tab {
+    color: #fafafad6 !important;
+}
+
+.active-tab:hover {
+    cursor: default; 
+}
+
+.jumbotron {
+    height: 100vh;
+    min-height: 500px;
+    background: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-pink {
+    color: #e2bacb !important;
+}
+
+.darker-pink {
+    background-color: #e2bacb !important;
+}
+
+
+.text-darker-pink {
+    color: #ff8dbf;
+    padding: 2px;
+}
+
+.off-white {
+    background-color: #fafafaf3 !important;
+}
+
+.welcome {
+    margin: 65px auto 150px auto;
+    width: 60%;
+    border-radius: 8px;
+}
+
+.p-boxed {
+    padding: 5px;
+}
+
+.offer-bar {
+    margin-bottom: 10px;
+    height: 55px;
+    border-radius: 8px 8px 0 0;
+}
+
+.message {
+    margin-top: 50px;
+    padding: 3px;
+    text-align: center;
+}
+
+.img-rd {
+    border-radius: 8px;
+ }
+
+ .cake-header {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+
+ .cake-header {
+     background: url(../images/cakes-div.jpg);
+     min-height: 250px;
+ }
+
+ .carousel-caption {
+    background-color: #ffffff;
+    opacity: 0.8;
+    border-radius: 8px;
+ }
+
+ .card-overlay{
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     background-color: rgba(220,192,213, 0.7);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     visibility: hidden;
+ }
+
+.btn-pink {
+    background-color: #e2bacb !important;
+    color: #ffffff !important;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-pink:hover {
+    background-color: #ffffff !important;
+    color: #e2bacb !important;
+    text-decoration: none;
+    border: solid 1px #e2bacb;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+ .add-cart-btn {
+    color: #dcc0d5;
+    background-color: rgba(255, 255, 255);
+    padding: 10px 28px;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 18px;
+ }
+
+ .add-cart-btn:hover {
+    transition: 0.3s;
+    background-color: #dcc0d5;
+    color: #ffffff;
+    border-radius: 8px;
+ }
+
+ .card:hover .card-overlay {
+     visibility: visible;
+ }
+
+ .baked-goods-grid {
+     margin: 0 auto;
+     width: 100%;
+     display: grid;
+     grid-template-columns: 30% 60%;
+     background-color: #fafafa;
+     border-radius: 8px;
+     opacity: 0.9;
+ }
+
+ .cart-img {
+     width: 120px;
+     height: 120px;
+ }
+
+ .baked-goods-grid > div {
+     padding: 40px 15px;
+     background-color: #fafafa;
+     border-radius: 8px;
+ }
+
+ .checkout-btn {
+    margin: 20px 0;
+    text-align: center;
+ }
+
+ .about-us {
+     margin: 0 auto;
+ }
+
+ .about-img {
+     height: 350px;
+     width: 250px;
+     border: solid #e6c8d4 6px;
+     border-radius: 2px;
+ }
+
+ @media screen and (min-height: 760px) {
+    .footer-sz {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
